@@ -1,48 +1,63 @@
 # JDI DRM Enhanced Driver
 
-Driver DRM mejorado para pantalla Sharp Memory LCD 2.7" (JDI LT027B5AC01) con resolución 400x240.
+Improved DRM driver for Sharp Memory LCD 2.7" screen (JDI LT027B5AC01) with 400x240 resolution.
 
-## Características
+## Characteristics
 
-- Soporte completo para DRM (Direct Rendering Manager)
-- Optimizado para pantalla JDI LT027B5AC01
-- Soporte para color y monocromo
-- Control de retroiluminación
-- Gestión de energía avanzada
-- Comunicación SPI optimizada
-- Interfaz IOCTL para control directo
-- Overlays gráficos
+- Full support for DRM (Direct Rendering Manager)
 
-## Instalación
+- Optimized for JDI LT027B5AC01 screen
+
+- Support for color and monochrome
+
+- Backlight control
+
+- Advanced energy management
+
+- Optimized SPI communication
+
+- IOCTL interface for direct control
+
+- Graphic overlays
+
+## Installation
 
 ```bash
-make
-sudo make install
+
+Make
+
+Sudo make install
+
 ```
 
-## Configuración
+## Configuration
 
-El driver incluye varios parámetros configurables:
+The driver includes several configurable parameters:
 
-- `backlight`: Habilitar/deshabilitar retroiluminación (0/1)
-- `mono_cutoff`: Umbral de escala de grises (0-255)
-- `mono_invert`: Inversión de monocromo (0/1)
-- `auto_clear`: Limpiar pantalla al descargar driver (0/1)
-- `color`: Habilitar modo color (0/1)
+- `backlight`: Enable/disable backlight (0/1)
 
-## Uso
+- `mono_cutoff`: Grayscale threshold (0-255)
 
-Una vez instalado, el driver aparecerá como dispositivo DRM estándar en `/dev/dri/`.
+- `mono_invert`: Monochrome inversion (0/1)
 
-## Hardware Soportado
+- `auto_clear`: Clean screen when downloading driver (0/1)
+
+- `color`: Enable color mode (0/1)
+
+## Use
+
+Once installed, the driver will appear as a standard DRM device in `/dev/dri/`.
+
+## Supported Hardware
 
 - JDI LT027B5AC01 (400x240)
+
 - Sharp Memory LCD compatible
 
-## Autor
+## Author
 
-N@Xs
+This driver is a version created by a Basque, N@Xs, improved and optimized of the sharp-drm driver of the master Ardangelo https://github.com/ardangelo/sharp-drm-driver
 
-## Licencia
+## License
 
-GPL v2 o posterior
+GPL v2
