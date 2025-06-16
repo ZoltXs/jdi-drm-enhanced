@@ -1,6 +1,6 @@
 # JDI DRM Enhanced Driver
 
-Improved DRM driver for Sharp Memory LCD 2.7" screen (JDI LT027B5AC01) with 400x240 resolution.
+Improved DRM driver for Sharp Memory LCD 2.7" screen (JDI & SHARP) with 400x240 resolution.
 
 ## Characteristics
 
@@ -56,7 +56,7 @@ Once installed, the driver will appear as a standard DRM device in `/dev/dri/`.
 
 ## Supported Hardware
 
-- JDI LT027B5AC01 (400x240)
+- JDI  (400x240)
 
 - Sharp Memory LCD compatible
 
