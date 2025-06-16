@@ -64,6 +64,17 @@ Once installed, the driver will appear as a standard DRM device in `/dev/dri/`.
 
 This driver is a version created by a Basque, N@Xs, improved and optimized of the sharp-drm driver of the master Ardangelo https://github.com/ardangelo/sharp-drm-driver
 
+## Note
+
+If you want to help me with my great work and support me in the construction of more projects like this, bring me a coffee ☕️.
+
+It will also help me for the update of future drivers.
+
+Click on this link to help me. 😜 👇👇
+
+
+
+
 ## License
 
 GPL v2
