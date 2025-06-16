@@ -24,9 +24,15 @@ Improved DRM driver for Sharp Memory LCD 2.7" screen (JDI LT027B5AC01) with 400x
 
 ```bash
 
-Make
+sudo make
 
-Sudo make install
+sudo make install
+
+Or use the installation script
+
+sudo chmod +x install.sh
+
+./install
 
 ```
 
