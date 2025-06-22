@@ -85,7 +85,7 @@ GPL v2
 
 # jdi screen driver
 
-support debian 11 32-bit and debian 12 64-bit with raspberry pi, and debian 12 64-bit with orange pi zero 2w
+support debian 11 32-bit kernel headers 6.1.21 V7+
 
 # Raspberry PI
 
